@@ -1,0 +1,36 @@
+:root {
+    --grid-margin: 1.25rem;
+    --section-padding: 3rem;
+    --display-lg-size: 2.5rem;      /* 40px */
+    --display-lg-lh: 3rem;          /* 48px */
+    --headline-lg-size: 2rem;      /* 32px */
+    --headline-lg-lh: 2.5rem;       /* 40px */
+}
+
+@media (min-width: 768px) {
+    :root {
+        --grid-margin: 4rem;
+        --section-padding: 8rem;
+        --display-lg-size: 4.5rem;  /* 72px */
+        --display-lg-lh: 5rem;      /* 80px */
+        --headline-lg-size: 3rem;   /* 48px */
+        --headline-lg-lh: 3.5rem;   /* 56px */
+    }
+}
+
+.glass-surface, .surface_glass {
+    background: rgba(18, 19, 21, 0.6);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.accent-glow {
+    box-shadow: 0 0 20px rgba(162, 201, 255, 0.15);
+}
+.grid-accent {
+    background-image: radial-gradient(circle, rgba(142, 145, 152, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+.tech-line-h {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(142, 145, 152, 0.2), transparent);
+}

@@ -1,0 +1,37 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Project specific temp files
+.tempmediaStorage/
+*.resolved
+*.metadata.json
+verify_*.webp
+verify_*.png

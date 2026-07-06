@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Academic Calendar &amp; Timetable | NETHAWK AVIATION</title>
+<meta content="Discover NATI Aviation Academy. Premium flight training, UAV certification, and aviation research facilities." name="description"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="js/tailwind-config.js"></script>
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body class="bg-background text-on-background font-body-lg text-body-lg selection:bg-secondary/30">
+<!-- Top Navigation Bar -->
+<!-- Top Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-white/10 shadow-md flex justify-between items-center px-grid-margin py-4">
+  <a class="font-display-lg text-title-md font-bold text-on-surface tracking-tighter hover:text-primary transition-colors" href="home.html">NATI</a>
+  <div class="hidden md:flex gap-8 items-center">
+    <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" href="home.html">Home</a>
+    <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" href="about-us.html">About</a>
+    <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" href="training-programmes.html">Programmes</a>
+    <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" href="services.html">Services</a>
+    <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors" href="admissions.html">Admissions</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <button aria-label="Toggle Menu" class="md:hidden text-on-surface hover:text-secondary transition-colors" id="mobile-menu-btn"><span class="material-symbols-outlined text-[28px]">menu</span></button>
+    <a class="bg-secondary text-on-secondary px-6 py-2 rounded font-title-md text-title-md hover:shadow-[0_0_15px_rgba(162,201,255,0.4)] transition-all flex items-center justify-center text-center" href="apply-now.html">Apply Now</a>
+  </div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="relative pt-32 pb-section-padding px-grid-margin min-h-screen overflow-hidden">
+<!-- Background Accents -->
+<div class="absolute inset-0 grid-accent pointer-events-none opacity-20"></div>
+<div class="absolute top-1/4 -right-1/4 w-[600px] h-[600px] bg-secondary/5 blur-[120px] rounded-full pointer-events-none"></div>
+<!-- Header Section -->
+<header class="relative z-10 mb-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="max-w-2xl">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-4 uppercase">Academic Services</span>
+<h1 class="font-display-lg text-display-lg text-on-surface leading-tight">Master Schedule<br/><span class="text-secondary-fixed-dim">Semester 02 / 2024</span></h1>
+</div>
+<div class="flex gap-4">
+<button class="flex items-center gap-2 bg-surface-variant/30 px-4 py-2 border border-outline-variant/30 rounded-lg font-label-caps text-label-caps hover:bg-surface-variant/50 transition-colors">
+<span class="material-symbols-outlined text-[18px]">download</span>
+                        Export PDF
+                    </button>
+<button class="flex items-center gap-2 bg-surface-variant/30 px-4 py-2 border border-outline-variant/30 rounded-lg font-label-caps text-label-caps hover:bg-surface-variant/50 transition-colors">
+<span class="material-symbols-outlined text-[18px]">print</span>
+                        Print View
+                    </button>
+</div>
+</div>
+</header>
+<!-- Semester Timeline Section -->
+<section class="relative z-10 mb-24">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-title-md text-title-md flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">event_repeat</span>
+                    Academic Calendar
+                </h2>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-primary-container text-primary rounded-full font-label-caps text-[10px]">CURRENT WEEK</span>
+<span class="px-3 py-1 bg-error-container text-error rounded-full font-label-caps text-[10px]">EXAM BLOCK</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 gap-gutter">
+<!-- Week Cards (Iterative pattern) -->
+<!-- Week 1 -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-secondary relative group overflow-hidden">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-tighter absolute top-2 right-4">SCH_W01</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-secondary mb-1">WEEK 01</h3>
+<p class="font-title-md text-[18px] text-on-surface">Induction</p>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                            Safety Briefing
+                        </div>
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-variant"></span>
+                            Kit Allocation
+                        </div>
+</div>
+</div>
+<!-- Week 2-3 (Active/Current) -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-primary ring-2 ring-primary/20 accent-glow relative group overflow-hidden">
+<span class="font-label-caps text-[10px] text-primary uppercase tracking-tighter absolute top-2 right-4">SCH_W02_ACTIVE</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-primary mb-1">WEEK 02</h3>
+<p class="font-title-md text-[18px] text-on-surface">Foundations</p>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[13px] text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            Lab Assessment 01
+                        </div>
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-variant"></span>
+                            Aerodynamics II
+                        </div>
+</div>
+<div class="mt-auto pt-4 border-t border-white/5">
+<div class="h-1 w-full bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-primary w-3/4"></div>
+</div>
+<p class="text-[10px] mt-1 font-label-caps text-on-primary-container">75% COMPLETE</p>
+</div>
+</div>
+<!-- Week 3 -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-secondary relative group overflow-hidden opacity-80">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-tighter absolute top-2 right-4">SCH_W03</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-secondary mb-1">WEEK 03</h3>
+<p class="font-title-md text-[18px] text-on-surface">Propulsion</p>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                            Engine Dynamics
+                        </div>
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-variant"></span>
+                            Telemetry Basics
+                        </div>
+</div>
+</div>
+<!-- Week 4 (Mid-Term) -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-error relative group overflow-hidden">
+<span class="font-label-caps text-[10px] text-error uppercase tracking-tighter absolute top-2 right-4">SCH_W04_EXAM</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-error mb-1">WEEK 04</h3>
+<p class="font-title-md text-[18px] text-on-surface">Mid-Term I</p>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[13px] font-bold text-error">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+                            CBT Exam Block
+                        </div>
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-variant"></span>
+                            Flight Review
+                        </div>
+</div>
+</div>
+<!-- Week 5 (Break) -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-tertiary relative group overflow-hidden bg-surface-container-low/50">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-tighter absolute top-2 right-4">SCH_BREAK</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-tertiary mb-1">WEEK 05</h3>
+<p class="font-title-md text-[18px] text-on-surface-variant">Reading Week</p>
+</div>
+<p class="text-[12px] text-on-surface-variant italic">No scheduled campus activities. Remote support available.</p>
+</div>
+<!-- Week 6 -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-secondary relative group overflow-hidden opacity-60">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-tighter absolute top-2 right-4">SCH_W06</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-secondary mb-1">WEEK 06</h3>
+<p class="font-title-md text-[18px] text-on-surface">Avionics</p>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                            Radar Ops
+                        </div>
+</div>
+</div>
+<!-- Week 7 -->
+<div class="glass-card p-6 rounded-xl flex flex-col gap-4 border-l-4 border-l-secondary relative group overflow-hidden opacity-60">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-tighter absolute top-2 right-4">SCH_W07</span>
+<div>
+<h3 class="font-label-caps text-label-caps text-secondary mb-1">WEEK 07</h3>
+<p class="font-title-md text-[18px] text-on-surface">Ethics &amp; Law</p>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[13px] text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                            Aviation Law
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Daily Timetable Section -->
+<section class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Time Markers Column -->
+<div class="hidden lg:block lg:col-span-1 pt-24 space-y-[88px] text-right pr-6">
+<div class="font-label-caps text-[10px] text-on-surface-variant">08:00</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant">10:00</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant">12:00</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant">14:00</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant">16:00</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant">18:00</div>
+</div>
+<!-- Timetable Grid -->
+<div class="lg:col-span-11 w-full overflow-x-auto">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-title-md text-title-md flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">calendar_view_day</span>
+                        Daily Timetable
+                    </h2>
+<div class="flex bg-surface-container rounded-lg p-1 border border-outline-variant/20">
+<button class="px-4 py-1.5 rounded-md bg-secondary text-on-secondary font-label-caps text-[12px] transition-all">Today</button>
+<button class="px-4 py-1.5 rounded-md text-on-surface-variant hover:text-on-surface font-label-caps text-[12px] transition-all">Week</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-4 md:min-w-[800px] w-full pb-4">
+<!-- Monday -->
+<div class="space-y-4">
+<div class="text-center py-2 border-b border-white/10 mb-4">
+<span class="font-label-caps text-label-caps text-secondary">MONDAY</span>
+<div class="text-[12px] text-on-surface-variant mt-1">Oct 14</div>
+</div>
+<!-- Class Block -->
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-secondary hover:bg-surface-variant/40 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-secondary">08:30 - 10:30</span>
+<span class="material-symbols-outlined text-[14px] text-on-surface-variant">more_vert</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">UAV Aerodynamics Principles</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">person</span>
+                                Dr. Elias Thorne
+                            </div>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant mt-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+                                Hangar 4B
+                            </div>
+</div>
+<!-- Class Block -->
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-outline-variant hover:bg-surface-variant/40 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-on-surface-variant">11:00 - 13:00</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Data Telemetry Lab</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">person</span>
+                                Prof. Sarah Chen
+                            </div>
+</div>
+<div class="py-4 border-y border-white/5 text-center">
+<span class="font-label-caps text-[10px] text-on-surface-variant">LUNCH BREAK</span>
+</div>
+<!-- Class Block -->
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-primary bg-primary/5 hover:bg-primary/10 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-primary">14:00 - 16:30</span>
+<span class="bg-primary/20 text-primary px-2 py-0.5 rounded text-[8px] font-bold">VIRTUAL</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Meteorology for Pilots</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">video_call</span>
+                                Live Webinar
+                            </div>
+</div>
+</div>
+<!-- Tuesday -->
+<div class="space-y-4">
+<div class="text-center py-2 border-b border-white/10 mb-4">
+<span class="font-label-caps text-label-caps text-secondary">TUESDAY</span>
+<div class="text-[12px] text-on-surface-variant mt-1">Oct 15</div>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-error bg-error/5 border-error/20">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-error">09:00 - 12:00</span>
+<span class="material-symbols-outlined text-[16px] text-error">priority_high</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Flight Safety Mid-Term</h4>
+<p class="text-[11px] text-error/80 uppercase font-bold">Mandatory Attendance</p>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-secondary hover:bg-surface-variant/40 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-secondary">14:00 - 17:00</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Propulsion Systems II</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">person</span>
+                                Dr. Marcus Vane
+                            </div>
+</div>
+</div>
+<!-- Wednesday -->
+<div class="space-y-4">
+<div class="text-center py-2 border-b border-white/10 mb-4">
+<span class="font-label-caps text-label-caps text-secondary">WEDNESDAY</span>
+<div class="text-[12px] text-on-surface-variant mt-1">Oct 16</div>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-outline-variant opacity-50">
+<div class="text-center py-8">
+<span class="material-symbols-outlined text-on-surface-variant text-[24px] mb-2">self_improvement</span>
+<p class="font-label-caps text-[10px] text-on-surface-variant">NO CLASSES SCHEDULED</p>
+</div>
+</div>
+</div>
+<!-- Thursday -->
+<div class="space-y-4">
+<div class="text-center py-2 border-b border-white/10 mb-4">
+<span class="font-label-caps text-label-caps text-secondary">THURSDAY</span>
+<div class="text-[12px] text-on-surface-variant mt-1">Oct 17</div>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-secondary hover:bg-surface-variant/40 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-secondary">08:00 - 11:30</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Practical Flight Session</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+                                South Flight Field
+                            </div>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-secondary hover:bg-surface-variant/40 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-secondary">13:00 - 15:00</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Aviation Law &amp; Ethics</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">person</span>
+                                Adv. Helen Rogers
+                            </div>
+</div>
+</div>
+<!-- Friday -->
+<div class="space-y-4">
+<div class="text-center py-2 border-b border-white/10 mb-4">
+<span class="font-label-caps text-label-caps text-secondary">FRIDAY</span>
+<div class="text-[12px] text-on-surface-variant mt-1">Oct 18</div>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-secondary hover:bg-surface-variant/40 transition-all cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-secondary">10:00 - 12:00</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface leading-tight mb-2">Ethics Workshop</h4>
+<div class="flex items-center gap-2 text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">person</span>
+                                Adv. Helen Rogers
+                            </div>
+</div>
+<div class="glass-card p-4 rounded-lg border-l-2 border-l-tertiary bg-surface-container-low border-dashed border-tertiary/30">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-caps text-[10px] text-tertiary">15:00 - 17:00</span>
+</div>
+<h4 class="font-title-md text-[15px] text-on-surface-variant leading-tight mb-2">Open Hangar Hours</h4>
+<p class="text-[11px] text-on-surface-variant italic">Optional Revision Session</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Instructor Profiles (Technical Accents) -->
+<section class="mt-24 pt-16 border-t border-white/10">
+<div class="flex items-center gap-4 mb-8">
+<span class="w-12 h-px bg-secondary"></span>
+<h3 class="font-label-caps text-label-caps text-secondary">COURSE INSTRUCTORS</h3>
+</div>
+<div class="flex flex-wrap gap-8">
+<div class="flex items-center gap-4 group cursor-pointer">
+<div class="w-12 h-12 rounded-full overflow-hidden border border-secondary/20 ring-2 ring-secondary/5 group-hover:ring-secondary/20 transition-all">
+<img alt="Close-up professional portrait of an aviation instructor in a dark pilot uniform, sharp high-contrast lighting, technical cockpit background, corporate modern style, deep shadows." class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" data-alt="Close-up professional portrait of an aviation instructor in a dark pilot uniform, sharp high-contrast lighting, technical cockpit background, corporate modern style, deep shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUbWuEtiPYG9gy9MJeppuREfkZfj_Qc4oYhxA7SHAPcXVWIsi4n_x9c7fFyoIwGWoUQAtBb1hxYGhCu9q9Kya0SD32gqsoMZ-yTB5H4tmt5uQTcn1nQmfAh75Vcp1gI8G26MNlNVv86zYjHN5Z9nzjuzArPshRalPKqvpB_SeHcS6N44wY6V9PGNC16enWnNIyyyaHAbMJmT-queLvM83Cg2BWb9F6s1dKm1bobOk26RTJlpYt96U_"/>
+</div>
+<div>
+<p class="font-title-md text-[14px] text-on-surface">Dr. Elias Thorne</p>
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase">Aerodynamics Lead</p>
+</div>
+</div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<div class="w-12 h-12 rounded-full overflow-hidden border border-secondary/20 ring-2 ring-secondary/5 group-hover:ring-secondary/20 transition-all">
+<img alt="Close-up professional portrait of a female tech instructor wearing a minimalist navy blue shirt, clean office lighting with blue accents, high-tech engineering environment, corporate modern style." class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" data-alt="Close-up professional portrait of a female tech instructor wearing a minimalist navy blue shirt, clean office lighting with blue accents, high-tech engineering environment, corporate modern style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkmhLRYzp-NzqfEnSZDY3LCo_ych-OKlgydywHF9r_wTsvLBd2aFGlt9F2GN0gLB8gnVQgLZi8aZgPkoif9OazyHTukMwf7yHhA2x_gh7d5qUQ2NVgvrdAXpszuFyVkAjuUECCuSLKbrpFo8OdxGWQVq1UMgpd8q4VTVgKrGCo6xsTFjjngaK7CnF_0787ePPuVHN6qIllrZ1_6gRLE3z2J5vDUUpQCWc_UGkUkhcsh2qOrlcGqPOx"/>
+</div>
+<div>
+<p class="font-title-md text-[14px] text-on-surface">Prof. Sarah Chen</p>
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase">Systems Engineering</p>
+</div>
+</div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<div class="w-12 h-12 rounded-full overflow-hidden border border-secondary/20 ring-2 ring-secondary/5 group-hover:ring-secondary/20 transition-all">
+<img alt="Close-up professional portrait of a male aviation lawyer in a sharp dark suit, soft dramatic side lighting, minimalist architectural background, premium corporate aesthetic, authoritative mood." class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" data-alt="Close-up professional portrait of a male aviation lawyer in a sharp dark suit, soft dramatic side lighting, minimalist architectural background, premium corporate aesthetic, authoritative mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUZRw9xaj6Wc7uqCLw1l5Tlv-za8xaHepDzBM0IzspHtJfjSbHoQxz0_n5wR-1gpcRFsFiY4-4Q5Er8Te1Wfdh4erYeKvGwjC7X4VhhjHA-2uMGxI-rUlT1VbLJASwk47dcomm64B21u7Y3AYQLjQfLQ9NpZhKOGBqiS2OGF7hpdZiSaebWhWtNkBPw7kgrI30_ADm9yESa3egK2CXnYJucBM_uKvwpTl3M9yweclKEXjmSIXqxPSy"/>
+</div>
+<div>
+<p class="font-title-md text-[14px] text-on-surface">Adv. Helen Rogers</p>
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase">Aviation Law</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/20 grid grid-cols-1 md:grid-cols-4 gap-gutter px-grid-margin py-section-padding w-full">
+<div class="col-span-1 md:col-span-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">NETHAWK AVIATION</span>
+<p class="mt-4 text-on-surface-variant text-[14px] max-w-xs font-body-lg">The global benchmark for drone pilot training and autonomous flight systems engineering.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-secondary">ACADEMY</h4>
+<a class="font-label-caps text-[12px] text-on-surface-variant hover:text-secondary transition-all" href="training-programmes.html">Pilot Training</a>
+<a class="font-label-caps text-[12px] text-on-surface-variant hover:text-secondary transition-all" href="training-programmes.html">UAV Certification</a>
+<a class="font-label-caps text-[12px] text-on-surface-variant hover:text-secondary transition-all" href="training-programmes.html">Safety Protocols</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-secondary">CAMPUS</h4>
+<a class="font-label-caps text-[12px] text-on-surface-variant hover:text-secondary transition-all" href="about-us.html">Locations</a>
+<a class="font-label-caps text-[12px] text-on-surface-variant hover:text-secondary transition-all" href="admissions.html">Contact Support</a>
+<a class="font-label-caps text-[12px] text-on-surface-variant hover:text-secondary transition-all" href="about-us.html">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-secondary">NEWSLETTER</h4>
+<div class="flex gap-2">
+<input class="bg-surface-variant/50 border border-outline-variant/30 rounded px-4 py-2 text-[14px] w-full focus:ring-1 focus:ring-secondary focus:border-secondary outline-none transition-all" placeholder="Email address" type="email"/>
+<button class="bg-secondary text-on-secondary px-4 rounded hover:brightness-110 transition-all">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+<p class="text-[10px] text-on-surface-variant italic">© 2024 Nethawk Aviation Training Institute. Precision in Flight.</p>
+</div>
+</footer>
+<script>
+        // Micro-interaction for class blocks
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-2px)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0px)';
+            });
+        });
+    </script>
+<!-- Mobile Drawer -->
+<div class="fixed inset-y-0 right-0 z-[100] w-64 bg-surface-container-high/95 backdrop-blur-2xl border-l border-white/10 shadow-2xl transform translate-x-full transition-transform duration-300 flex flex-col p-6 overflow-y-auto" id="mobile-drawer">
+<div class="flex justify-between items-center mb-8">
+<div class="font-display-lg text-title-md font-bold text-primary">NATI</div>
+<button class="text-on-surface hover:text-secondary" id="close-menu-btn"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div class="flex flex-col gap-4">
+<a class="text-on-surface hover:text-secondary font-bold border-b border-outline-variant/30 pb-2" href="home.html">Home</a>
+<a class="text-on-surface hover:text-secondary font-bold border-b border-outline-variant/30 pb-2" href="about-us.html">About</a>
+<a class="text-on-surface hover:text-secondary font-bold border-b border-outline-variant/30 pb-2" href="training-programmes.html">Programmes</a>
+<a class="text-on-surface hover:text-secondary font-bold border-b border-outline-variant/30 pb-2" href="services.html">Services</a>
+<a class="text-on-surface hover:text-secondary font-bold border-b border-outline-variant/30 pb-2" href="admissions.html">Admissions</a>
+</div>
+</div>
+<!-- Mobile Overlay -->
+<div class="fixed inset-0 z-[90] bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300" id="mobile-overlay"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const closeBtn = document.getElementById('close-menu-btn');
+        const drawer = document.getElementById('mobile-drawer');
+        const overlay = document.getElementById('mobile-overlay');
+
+        if(menuBtn && closeBtn && drawer && overlay) {
+            const toggleMenu = () => {
+                const isOpen = !drawer.classList.contains('translate-x-full');
+                if(isOpen) {
+                    drawer.classList.add('translate-x-full');
+                    overlay.classList.remove('opacity-100');
+                    overlay.classList.add('opacity-0');
+                    overlay.classList.add('pointer-events-none');
+                } else {
+                    drawer.classList.remove('translate-x-full');
+                    overlay.classList.remove('opacity-0');
+                    overlay.classList.add('opacity-100');
+                    overlay.classList.remove('pointer-events-none');
+                }
+            };
+            menuBtn.addEventListener('click', toggleMenu);
+            closeBtn.addEventListener('click', toggleMenu);
+            overlay.addEventListener('click', toggleMenu);
+        }
+    });
+</script>
+</body>
+</html>
