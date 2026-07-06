@@ -3,7 +3,7 @@ import glob
 from bs4 import BeautifulSoup
 import re
 
-html_files = glob.glob('src/*.html')
+html_files = glob.glob('*.html')
 print(f"Scanning {len(html_files)} HTML files...\n")
 
 issues = {
