@@ -35,3 +35,20 @@ env/
 *.metadata.json
 verify_*.webp
 verify_*.png
+
+# Django / Local database / logs / env
+.env
+*.sqlite3
+db.sqlite3
+db.sqlite3-*
+media/
+staticfiles/
+.coverage
+htmlcov/
+logs/
+*.log
+.env.*
+*.sql
+*-backup.json
+*sqlite-data-backup.json
+switch-to-*.sh

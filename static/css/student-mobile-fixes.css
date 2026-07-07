@@ -1,0 +1,36 @@
+@media (max-width: 1199.98px) {
+  .topbar-left > .sidebar-toggle.student-menu-toggle.btn.btn-console[data-sidebar-toggle],
+  body.student-profile-reference-shell .topbar-left > .sidebar-toggle.btn.btn-console[data-sidebar-toggle] {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    min-height: 42px !important;
+    padding: 0 !important;
+    background-color: #10294d !important;
+    border: 1px solid #10294d !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    box-shadow: 0 8px 18px rgba(16, 41, 77, .2) !important;
+  }
+
+  .topbar-left > .sidebar-toggle.student-menu-toggle.btn.btn-console[data-sidebar-toggle] i.bi-list,
+  body.student-profile-reference-shell .topbar-left > .sidebar-toggle.btn.btn-console[data-sidebar-toggle] i.bi-list {
+    color: #fff !important;
+    font-size: 1.35rem !important;
+    line-height: 1 !important;
+    opacity: 1 !important;
+    -webkit-text-stroke: .45px #fff;
+  }
+
+  .topbar-left > .sidebar-toggle.student-menu-toggle.btn.btn-console[data-sidebar-toggle]:hover,
+  .topbar-left > .sidebar-toggle.student-menu-toggle.btn.btn-console[data-sidebar-toggle]:focus,
+  body.student-profile-reference-shell .topbar-left > .sidebar-toggle.btn.btn-console[data-sidebar-toggle]:hover,
+  body.student-profile-reference-shell .topbar-left > .sidebar-toggle.btn.btn-console[data-sidebar-toggle]:focus {
+    background-color: #0a1f3d !important;
+    border-color: #0a1f3d !important;
+    color: #fff !important;
+  }
+}

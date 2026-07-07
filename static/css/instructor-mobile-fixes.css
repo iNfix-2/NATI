@@ -1,0 +1,118 @@
+@media (max-width: 575.98px) {
+  .instructor-topbar {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    grid-template-areas:
+      "title title"
+      "search actions" !important;
+    align-items: center !important;
+    gap: .48rem .46rem !important;
+    min-height: 0 !important;
+    height: auto !important;
+    padding: .5rem .55rem .6rem !important;
+    overflow: visible !important;
+  }
+
+  .instructor-title-row {
+    grid-area: title !important;
+    min-width: 0 !important;
+    gap: .38rem !important;
+  }
+
+  .instructor-title-row h1 {
+    font-size: .88rem !important;
+    line-height: 1.08 !important;
+  }
+
+  .instructor-title-row p {
+    font-size: .62rem !important;
+    line-height: 1.1 !important;
+  }
+
+  .instructor-mobile-logo {
+    width: min(112px, 32vw) !important;
+    height: auto !important;
+    max-height: 26px !important;
+    object-fit: contain !important;
+    object-position: left center !important;
+  }
+
+  .instructor-menu-button {
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
+    min-height: 30px !important;
+    color: #10294d !important;
+    background: #eef3fa !important;
+    border-color: #c4d0df !important;
+  }
+
+  .instructor-menu-button i {
+    font-size: 1rem !important;
+    color: #10294d !important;
+  }
+
+  .instructor-search {
+    grid-area: search !important;
+    display: flex !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: 34px !important;
+    padding: 0 .65rem !important;
+    gap: .45rem !important;
+    border-radius: 999px !important;
+  }
+
+  .instructor-search i {
+    font-size: .9rem !important;
+  }
+
+  .instructor-search input {
+    min-width: 0 !important;
+    height: 100% !important;
+    font-size: .72rem !important;
+  }
+
+  .instructor-topbar-actions {
+    grid-area: actions !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    gap: .36rem !important;
+  }
+
+  .instructor-icon-button,
+  .instructor-profile-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    min-height: 34px !important;
+    max-width: 34px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+  }
+
+  .instructor-icon-button i {
+    font-size: .92rem !important;
+  }
+
+  .instructor-profile-button span:last-child,
+  .instructor-profile-button::after {
+    display: none !important;
+  }
+
+  .instructor-profile-avatar {
+    width: 26px !important;
+    height: 26px !important;
+    min-width: 26px !important;
+    margin: 0 !important;
+    font-size: .82rem !important;
+  }
+}

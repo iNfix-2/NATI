@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 535 150" role="img" aria-labelledby="title">
+  <title id="title">Nethawk Aviation Training Institute</title>
+  <defs>
+    <style>
+      .brand{fill:#fff}
+      .cut{fill:#1d2f68}
+      .word{font-family:Inter,Arial,Helvetica,sans-serif;font-weight:850;letter-spacing:-1.8px}
+    </style>
+  </defs>
+  <g class="brand" transform="translate(22 10) scale(.42)">
+    <rect x="0" y="62" width="36" height="86" rx="2"/>
+    <circle cx="18" cy="24" r="24"/>
+    <circle cx="18" cy="169" r="18"/>
+    <rect x="0" y="190" width="36" height="86" rx="2"/>
+    <circle cx="18" cy="296" r="22"/>
+    <rect x="47" y="45" width="38" height="100" transform="rotate(-45 66 95)"/>
+    <rect x="72" y="158" width="40" height="30"/>
+    <rect x="252" y="62" width="36" height="86" rx="2"/>
+    <circle cx="270" cy="24" r="24"/>
+    <circle cx="270" cy="169" r="18"/>
+    <rect x="252" y="190" width="36" height="86" rx="2"/>
+    <circle cx="270" cy="296" r="22"/>
+    <rect x="206" y="211" width="38" height="104" transform="rotate(-45 225 263)"/>
+    <rect x="226" y="158" width="40" height="30"/>
+    <circle cx="144" cy="160" r="74"/>
+    <path class="cut" d="M153 92c7-3 13-2 16 2 3 5 1 10-5 16l-18 18 27-7c6-1 10 0 11 4 1 4-2 7-8 10l-43 21-21 43c-3 6-6 9-10 8-4-1-5-5-4-11l7-27-18 18c-6 6-11 8-16 5-4-3-5-9-2-16l31-50c5-8 12-14 21-18l32-16Z"/>
+    <path d="M144 86c-41 0-74 33-74 74 0 25 12 47 31 61l12-61 31-74Zm0 148c41 0 74-33 74-74 0-21-9-41-24-54l-62 128h12Z"/>
+  </g>
+  <g class="brand">
+    <text class="word" x="155" y="63" font-size="38">Nethawk Aviation</text>
+    <text class="word" x="155" y="103" font-size="38">Training Institute</text>
+  </g>
+</svg>
