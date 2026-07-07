@@ -24,7 +24,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .accent-glow {
-    box-shadow: 0 0 20px rgba(162, 201, 255, 0.15);
+    box-shadow: 0 0 20px rgba(27, 54, 93, 0.4);
 }
 .grid-accent {
     background-image: radial-gradient(circle, rgba(142, 145, 152, 0.1) 1px, transparent 1px);
